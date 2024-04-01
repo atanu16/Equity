@@ -1,0 +1,48 @@
+.c_box{
+  width: 20%;
+  margin:40vh auto ;
+}
+.box{
+  font-weight: 600;
+  font-family: 'poppins',sans-serif; 
+  letter-spacing: 0px;
+  font-size: 50px;
+}
+.box span{
+  display: inline-block
+}
+.f{
+  color: black;
+  animation: coloreffect 2s linear infinite;
+  /* animation-delay: .1s; */
+}
+.f::before{
+  content: "";    
+  border: 3px solid black;
+  margin: 0px 4px;
+}
+@keyframes coloreffect{    
+  50%{
+      color: grey;        
+  }    
+  100%{
+      color:rgb(242, 228, 243);                   
+                       
+  }
+}
+.i{
+  animation: coloreffect 2s linear infinite;
+  animation-delay: .2s;
+}
+.n{
+  animation: coloreffect 2s linear infinite;
+  animation-delay: .4s;
+}
+.o{
+  animation: coloreffect 2s linear infinite;
+  animation-delay: .6s;
+}
+.s{
+  animation: coloreffect 2s linear infinite;
+  animation-delay: .8s;
+}
