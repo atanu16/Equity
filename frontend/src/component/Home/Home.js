@@ -9,9 +9,9 @@ import { clearErrors, getProduct } from "../../actions/productAction";
 import { useSelector, useDispatch } from "react-redux";
 import Loader from "../layout/Loader/Loader";
 import { useAlert } from "react-alert";
-import BgVideo from '../../images/videoplayback.mp4'
+// import BgVideo from '../../images/videoplayback.mp4'
 import Brand from '../../images/Screenshot_2023-05-02_103118-removebg-preview.png'
-// import BgVideo1 from '../../images/NIKE ad motion graphics (after effects).mp4'
+import BgVideo1 from '../../images/sixnine for Birkenstock – SHINJUKU.mp4'
 
 const Home = () => {
   const alert = useAlert();
@@ -37,7 +37,7 @@ const Home = () => {
           <div className="banner">
           {/* <video src={BgVideo1} autoPlay muted loop class="video-bg" /> */}
           <div className="shade"></div>
-          <video src={BgVideo} autoPlay muted loop class="video-bg" />
+          <video src={BgVideo1} autoPlay muted loop class="video-bg" />
             <p></p>
             <img src={Brand} className="Brand"></img>
         
